@@ -1,0 +1,20 @@
+# ghhwer/dns-extras/public-repos/host
+#
+# Use on client DNS (e.g. Pi-hole) so pip/npm/pnpm cannot reach upstream
+# registries directly; point package managers at Gatekeeper instead.
+
+# PyPI
+0.0.0.0 pypi.org
+0.0.0.0 www.pypi.org
+0.0.0.0 files.pythonhosted.org
+0.0.0.0 warehouse.pypi.org
+0.0.0.0 pypi.python.org
+0.0.0.0 pythonhosted.org
+
+# npm
+0.0.0.0 registry.npmjs.org
+0.0.0.0 registry.npmjs.com
+0.0.0.0 npmjs.com
+0.0.0.0 www.npmjs.com
+0.0.0.0 npmjs.org
+0.0.0.0 www.npmjs.org
